@@ -1,8 +1,12 @@
 
 
 [
-    {
-      "name": "EL RÍO DE LOS AMIGOS",
-      "url": "https://github.com/majimenezaquino/audio/raw/master/audio/1.mp3"
-    }
+  {
+    "name": "EL RÍO DE LOS AMIGOS",
+    "url": "https://github.com/majimenezaquino/audio/raw/master/audio/1.mp3"
+  },
+  {
+    "name": "EL OSO RISUEÑO Y LA TORMENTA MÁGICA",
+    "url": "https://github.com/majimenezaquino/audio/raw/master/audio/2.mp3"
+  }
   ]
