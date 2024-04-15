@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     async function loadAudioByName(audioName) {
         try {
-            const response = await fetch('https://raw.githubusercontent.com/majimenezaquino/audio-book/main/list.json');
+            const response = await fetch('https://raw.githubusercontent.com/majimenezaquino/audio/master/list.json');
             const audioList = await response.json();
             const audioData = audioList.find(item => item.name === audioName);
 
