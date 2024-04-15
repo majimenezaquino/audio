@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.audio-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif; /* Estilo de fuente más limpio */
+}
+
+#audioInfo {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 20px;
+}
+
+#playPauseBtn {
+    width: 80px;  /* Tamaño fijo para forma circular */
+    height: 80px; /* Tamaño fijo para forma circular */
+    font-size: 24px; /* Hace el texto más grande */
+    cursor: pointer;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 50%; /* Hace el botón completamente redondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#playPauseBtn:hover {
+    background-color: #0056b3;
+    transform: scale(1.1); /* Efecto de "zoom" al pasar el mouse */
+}
